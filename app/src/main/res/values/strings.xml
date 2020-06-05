@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">JitterApp</string>
+    <string name="send_jitter_title">Send Jitter</string>
+    <string name="submit">submit</string>
+    <string name="list_jitters">List Jitters</string>
+    <string name="post_jitter">Post Jitter</string>
 </resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SendJitterActivity">
+
+    <TextView
+        android:id="@+id/activity_send_jitter_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/gloria_hallelujah"
+        android:text="@string/send_jitter_title"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/activity_send_jitter_name_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:text="login name" />
+
+    <EditText
+        android:id="@+id/activity_send_jitter_message_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:text="message" />
+
+    <Button
+        android:id="@+id/activity_send_jitter_send_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#19C7B8"
+        android:text="@string/submit"
+        android:textColor="#C31B1B" />
+</LinearLayout>
